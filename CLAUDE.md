@@ -2,6 +2,8 @@
 
 This repository is a prompt package for making fast-paced, photorealistic consistent-character videos of real people (from the user's reference photos) in VideoExpress. It contains no code to run.
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 - Follow `PLAYBOOK.md` exactly, starting at Section 1 (Intake).
 - Use a browser: the built-in browser in the Claude desktop app, or Claude in Chrome. Open https://app.videoexpress.ai/.
 - Do not run shell commands, tests or scripts. Do not do a capability audit, model verification or approval gates. Go straight from intake to production.

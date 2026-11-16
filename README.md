@@ -1,5 +1,7 @@
 # Realistic Consistent Character Videos: VideoExpress Workflow v1.0
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 Attach 1–2 real photos of one or two people, write a one-line story and pick an English accent for each person. Your AI agent then builds a **fast-paced, photorealistic ~30-second video** inside [VideoExpress](https://app.videoexpress.ai/) in which **the same people stay recognizable in every shot** and speak their lines with lip sync in a steady accent. It writes the character bible, makes a character anchor portrait, generates every shot with multi-shot video prompts, **trims the dead air** on the timeline and exports an MP4.
 
 **Community page:** [Realistic Consistent Character Videos](https://community.dualup.com/@videoexpress/workflows/realistic-consistent-character-videos)

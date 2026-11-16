@@ -10,6 +10,8 @@ Copy-ready reference productions built exactly to [`PLAYBOOK.md`](../PLAYBOOK.md
 
 ## How to use it
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 - **The AI producer** can study it to see the expected density: a hook in C01, one speaker per clip with the line in Shot A, the listener "lips closed, and does not speak", Short Tags repeated after every cut, a twist at about 70% and a warm payoff. The workflow doesn't require reading these files.
 - **A person** can paste the pack into VideoExpress clip by clip:
   1. Upload the two reference photos: **Media Library → My Media → Images → Upload file → + Add files**, name them `MAYA - reference photo` / `LEO - reference photo`, **Upload files**. Then **Create with AI → Create Video From Prompt → Vertical 9:16**, tick **Use Consistent Character** (click **I Agree** on the one-time Disclaimer).

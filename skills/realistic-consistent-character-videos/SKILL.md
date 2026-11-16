@@ -5,9 +5,11 @@ description: Produce a fast-paced photorealistic ~30-second video of one or two 
 
 # Realistic Consistent Character Videos in VideoExpress
 
-The full recipe is `../../PLAYBOOK.md` at the repository root (public URL: https://raw.githubusercontent.com/ai-playbooks/realistic-consistent-character-videos/main/PLAYBOOK.md). Follow it exactly. It is self-contained.
+The full recipe is `../../PLAYBOOK.md` at the repository root (public URL: https://raw.githubusercontent.com/jdmckin/finance-new/main/PLAYBOOK.md). Follow it exactly. It is self-contained.
 
 ## Non-negotiables
+
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
 1. **Browser only.** Work at https://app.videoexpress.ai/. Run no code, shell, tests or file processing. The only file action is uploading the user's reference photos (Media Library → My Media → Images → Upload file → + Add files → Upload files).
 2. **No preflight.** No capability audit, readiness check, model verification, cost estimate or approval gate.
 3. **One question.** Ask for 1–2 photos plus a name per character (1 or 2 characters; best a close, sharp, front-facing head-and-shoulders photo), a story, an English accent per character, and optionally length (default 30 s), format (9:16 default or 16:9) and pacing (Multi-shot default or Single-shot). Then produce without stopping.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 (2026-11-16)
+
+- Require Creative mode ON throughout image and video generation, including retries and replacements in both pacing modes, with a check immediately before each submission and after dialog resets or setting changes.
+- Apply the same rule to agent entry points, prompts, examples, troubleshooting and the UI reference.
+- Load the finance-new playbook from prompt and fallback URLs so runs use this repository's instructions.
+
 ## 1.0.0 (2026-11-06): first release
 
 Forked from [Realistic Mini Dramas](https://github.com/ai-playbooks/realistic-mini-dramas) **1.1.1**. It keeps that package's zero-preflight, browser-only design: a short `SYSTEM_PROMPT.md` that loads the full `PLAYBOOK.md` from GitHub, the ChatGPT Full access NOTE as the first message, built-in fallback essentials, the never-stop error table, and `AGENTS.md` / `CLAUDE.md` saying "run nothing, use the browser".

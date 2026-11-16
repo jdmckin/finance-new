@@ -42,6 +42,8 @@ Two white coffee cups; one black phone (screen never readable); Maya's two plain
 
 ## Settings (Section 4, identical for every image and clip)
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 | Setting | Value |
 |---|---|
 | Format | **Vertical 9:16** (re-check before every Create Image and Create Video) |

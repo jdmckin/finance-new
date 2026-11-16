@@ -1,5 +1,7 @@
 # Video prompting for realistic talking characters (VideoExpress)
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 A practical reference for writing image-to-video prompts for the VideoExpress video model when the clip must show real-looking people who speak with lip sync, keep a steady accent and stay recognizable across cuts. It is the background to Section 7 of [`PLAYBOOK.md`](../PLAYBOOK.md), where VideoExpress's "Video and Audio Prompt" field runs the video model on 3–10 s clips.
 
 ---

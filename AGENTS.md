@@ -2,6 +2,8 @@
 
 This repository is a **prompt package**. It contains no software.
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 ## What to do
 1. Open `PLAYBOOK.md` (the full instructions) and follow it exactly, starting at **Section 1 (Intake)**.
 2. Do all production work in the VideoExpress web app (https://app.videoexpress.ai/) with your **browser tool**.

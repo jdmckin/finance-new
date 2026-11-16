@@ -43,10 +43,12 @@ If your platform limits instruction length, for example a custom GPT's instructi
 
 ## Symptom → fix
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 | Symptom | Fix |
 |---|---|
 | ChatGPT: "process launcher failed" / "process security error" / "file read is failing" | Full access isn't selected for this chat. Settings → General → Permissions → Full access, then pick Full access in the chat's permissions menu, then reply `done`. |
-| AI can't open GitHub | It falls back to the essentials built into the prompt. Or reply: `Open https://github.com/ai-playbooks/realistic-consistent-character-videos/blob/main/PLAYBOOK.md instead.` |
+| AI can't open GitHub | It falls back to the essentials built into the prompt. Or reply: `Open https://github.com/jdmckin/finance-new/blob/main/PLAYBOOK.md instead.` |
 | AI asks before following the GitHub page | Reply: `Yes. That's my playbook, follow it.` |
 | ChatGPT: "browser-control session exited unexpectedly" | Check Full access is selected for this chat, then reply: `Start a new browser session and continue from the next unfinished step.` |
 | **Agent can't upload the photos** | Normal for some browser tools. In the open VideoExpress tab: **Media Library → My Media → Images → Upload file** → **+ Add files** (jpg/jpeg/png/gif, max 15 MB each) → name each `[Name] - reference photo` → **Upload files**. Reply `done`. (The Import Media panel has no file upload.) |

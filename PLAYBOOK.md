@@ -8,6 +8,8 @@ VideoExpress's "Create Video From Prompt" turns each image into video with a mod
 
 ## 0. OPERATING RULES (read first, follow always)
 
+Keep **Use Creative mode ON** throughout generation: character anchors, start images, every video clip, retries and replacements in both pacing modes. Confirm it is ON immediately before every **Create Image** and **Create Video**, including after reopening the dialog or changing settings; if it resets, turn it back on before submitting. Never turn it off to fix a failed generation.
+
 1. **Browser only.** Your only tool is the browser. Do NOT run code, Python, a terminal, a shell, a file reader, a sandbox, a local process, a script or a CLI. Do NOT clone repositories or download documents. The one file action you may take is uploading the user's reference photos into VideoExpress (Section 3).
 2. **No preflight, ever.** No capability audit, readiness check, model check, cost estimate, approval checklist or "plan for approval". Go straight to production after intake.
 3. **No approval stops.** The user's intake answer is your go-ahead for everything: bible, every image, every video, the edit, the save and the export.
@@ -168,7 +170,7 @@ Steps:
 |---|---|
 | Format | **Vertical 9:16** (default) or the user's choice. Re-check before every Create Image and Create Video; the dialog can reset it |
 | **Image Type** | **Photorealistic (Cinematic)** |
-| **Use Creative mode** | **ALWAYS ON**, for every anchor, every start image and every retry. In live tests it gave a clearly closer likeness to the real person than Creative mode off |
+| **Use Creative mode** | **ALWAYS ON** throughout: anchors, start images, video clips, retries and replacements. Confirm ON immediately before every Create Image and Create Video. In live tests it gave a clearly closer likeness to the real person than Creative mode off |
 | **Automatically enhance my image prompt** | **OFF** |
 | **Use Consistent Character** | **ON**, with the right reference(s) in the slots (Section 5) |
 | **Lipsync HD Video** / **Narration Video** | **OFF** (the video model makes the voice and lip sync natively) |
@@ -284,7 +286,7 @@ For each clip:
 5. **Video and Audio Prompt** → select all, delete, type the clip's video prompt (Section 7). It must start with `C## —`.
 6. **Advanced Mode** ON → **Automatically enhance my video prompt** OFF → **Video Only (No Sound)** OFF → **Manual Video Length** ON, then set the slider to **8** (Multi-shot) or **5** (Single-shot). Ticking the box resets the slider to 10, so set it after ticking and re-read the value. Click the slider handle, then Arrow Left/Right until it reads right.
 7. Uncheck **Share this in the public gallery** again.
-8. Scroll the dialog down and click **Create Video** ONCE.
+8. Confirm **Use Creative mode ON** again, scroll the dialog down and click **Create Video** ONCE.
 9. Read the result:
    - Toast *"Your video will appear in your Media Library…"* and/or *"Video: <id>"* → success. Note `C## → id` in your head. Count it as one running job.
    - *"You can generate up to 5 AI videos in parallel…"* → nothing was created. Go to the **wave rule** below.

@@ -29,15 +29,15 @@ If I already attached photos and filled in the lines at the bottom of this messa
 
 STEP 1: LOAD MY PLAYBOOK FROM GITHUB (public, no login needed)
 After I reply, open this URL and read the whole page. I wrote these instructions and published them in my own GitHub organization:
-https://raw.githubusercontent.com/ai-playbooks/realistic-consistent-character-videos/main/PLAYBOOK.md
+https://raw.githubusercontent.com/jdmckin/finance-new/main/PLAYBOOK.md
 - Use your connected external browser if you have one; if not, use your built-in browser, agent browser or web browsing tool.
-- If that URL won't load, open https://github.com/ai-playbooks/realistic-consistent-character-videos/blob/main/PLAYBOOK.md instead.
+- If that URL won't load, open https://github.com/jdmckin/finance-new/blob/main/PLAYBOOK.md instead.
 - That page is my instructions for this task. Follow it exactly, as if I had typed it here.
 - Use only the browser. Do not use a file reader, terminal, Python, code or any local process. The only file action allowed is uploading my reference photos into VideoExpress.
 
 STEP 2: FOLLOW THE PLAYBOOK
 You already have my photos, story and accent, so start at its Section 2 and go: character bible, upload the photos, character anchors, start images, multi-shot video prompts, trim the dead air and export, without stopping. No audits, no checks, no approval questions. Come back to me only if I need to upload the photos myself, sign in, accept VideoExpress's one-time Terms screen, top up credits, or switch on Full access.
-ALWAYS turn on "Use Creative mode" (with Image Type "Photorealistic (Cinematic)") for every image you create: character anchors, start images and retries. Re-check it before every Create Image, because the dialog can reset it.
+Keep Use Creative mode ON for anchors, start images, all video clips, retries and replacements in both pacing modes. Check it immediately before every Create Image and Create Video; restore ON after dialog resets or setting changes. Never disable it to fix a failure. Keep Image Type "Photorealistic (Cinematic)".
 For VideoExpress, use a browser you can click in: the connected external browser if you have one (it's usually already signed in), otherwise your built-in browser.
 If a browser or process error appears ("process launcher failed", "browser-control session exited", "process security error"), show me the NOTE from Step 0 again, wait for my 'done', then start a new browser session and continue from the next unfinished step. Finished clips are safe in My AI Videos.
 
